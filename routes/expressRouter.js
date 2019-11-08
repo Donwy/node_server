@@ -6,6 +6,8 @@ const expressModel = require('../models/expressModel');
 // expressRouter api controller封装方法
 router.get('/expressCreate', expressCtrl.expressCreate);
 router.get('/expressFind', expressCtrl.expressFind);
+router.get('/expressInsert', expressCtrl.expressInsert);
+router.get('/expressRemove', expressCtrl.expressRemove);
 
 //直接router写api
 // router.get('/expressFind', function (req,res){

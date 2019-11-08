@@ -8,6 +8,5 @@ const expressSchema = new mongoose.Schema({
 });
 
 
-
 // 将数据模型暴露出去
 module.exports = mongoose.model('express', expressSchema);
